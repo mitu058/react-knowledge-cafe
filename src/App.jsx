@@ -16,14 +16,19 @@ const newBookmarks = [...bookmarks, blog]
 setBookmarks(newBookmarks)
  }
 
- const handelMarkAsRead = time =>{
+ const handelMarkAsRead = (id,time) =>{
   const newReadingTime = readingTime + time
   setReadingTime(newReadingTime)
+  // remove the read blog from bookmark
+  // console.log('remove bookmark',id)
+  const remainingBookmarks = bookmarks.filter(bookmark => bookmark.id !== id)
+  setBookmarks(remainingBookmarks)
+
  }
   return (
     <>
      <Header></Header>
-     <div className='md:flex max-w-7xl mx-auto'>
+     <div className='flex container mx-auto lg:flex-row flex-col lg:justify-between'>
      <Blogs handelAdToBookmark={handelAdToBookmark} handelMarkAsRead={handelMarkAsRead}></Blogs>
      <Bookmarks bookmarks={bookmarks} readingTime={readingTime}></Bookmarks>
      </div>

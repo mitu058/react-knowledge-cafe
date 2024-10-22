@@ -1,8 +1,8 @@
 [
     {
       "id": 1,
-      "cover": "https://images.unsplash.com/photo-1517433456452-f9633a875f6f",
-      "title": "Exploring the Unknown",
+      "cover": "https://i.ibb.co.com/Fwbddwd/javascript-depositphotos-opt700-sm3dt7-1280x720.jpg",
+      "title": "JavaScript for Beginners",
       "author": "John Doe",
       "author_img": "https://randomuser.me/api/portraits/men/32.jpg",
       "posted_date": "2024-10-20",
@@ -11,8 +11,8 @@
     },
     {
       "id": 2,
-      "cover": "https://images.unsplash.com/photo-1518770660439-4636190af475",
-      "title": "The Art of Web Development",
+      "cover": "https://i.ibb.co.com/rwRpyPy/1718279988990.png",
+      "title": "Learn React With Me",
       "author": "Jane Smith",
       "author_img": "https://randomuser.me/api/portraits/women/65.jpg",
       "posted_date": "2024-10-18",
@@ -21,8 +21,8 @@
     },
     {
       "id": 3,
-      "cover": "https://images.unsplash.com/photo-1593642532400-2682810df593",
-      "title": "Mastering CSS in 30 Days",
+      "cover": "https://i.ibb.co.com/YdxmKyv/2.png",
+      "title": "The Art of Web Development",
       "author": "Emily Davis",
       "author_img": "https://randomuser.me/api/portraits/women/44.jpg",
       "posted_date": "2024-10-15",
@@ -31,8 +31,8 @@
     },
     {
       "id": 4,
-      "cover": "https://i.ibb.co.com/NL0Xzmj/development-opportunity-strategy-improvement-word.jpg",
-      "title": "JavaScript for Beginners",
+      "cover": "https://i.ibb.co.com/X2v1frV/4.jpg",
+      "title": "Explore Free Resources",
       "author": "Michael Brown",
       "author_img": "https://randomuser.me/api/portraits/men/77.jpg",
       "posted_date": "2024-10-12",
@@ -41,8 +41,8 @@
     },
     {
       "id": 5,
-      "cover": "https://i.ibb.co.com/jvGP5ZB/computer-program-coding-screen.jpg",
-      "title": "Building Responsive Layouts",
+      "cover": "https://images.unsplash.com/photo-1517433456452-f9633a875f6f",
+      "title": "Keep Learning Keep Explore",
       "author": "Sophia Lee",
       "author_img": "https://randomuser.me/api/portraits/women/81.jpg",
       "posted_date": "2024-10-10",
