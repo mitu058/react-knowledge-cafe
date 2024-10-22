@@ -28,7 +28,7 @@ setBookmarks(newBookmarks)
   return (
     <>
      <Header></Header>
-     <div className='flex container mx-auto lg:flex-row flex-col lg:justify-between'>
+     <div className='flex container mx-auto lg:flex-row flex-col justify-between'>
      <Blogs handelAdToBookmark={handelAdToBookmark} handelMarkAsRead={handelMarkAsRead}></Blogs>
      <Bookmarks bookmarks={bookmarks} readingTime={readingTime}></Bookmarks>
      </div>
